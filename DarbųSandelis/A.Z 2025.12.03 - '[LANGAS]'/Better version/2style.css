@@ -166,27 +166,26 @@ body{
     background-color: transparent;
     z-index: 1;
 }
+
 .buttonplace * {
     position: absolute;
-    height: 5vh;
-    width: 30vh;
-
     background-size: 100% 100%;
-}
+    top: 50%;
+    left: 50%;
+    transform-origin: center;
+} /*buttonplace only contains BUTTON, BOARD1, BOARD2*/
+
+
 .button{
     height: 4vh;
     width: 4vh;
-    transform-origin: center;
-    top: 50%;
-    left: 50%;
     transform: translate(-50%, -50%);
     background-image: url(Pics/BUTTON.png);
+
 }
 .board1, .board2{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform-origin: center;
+    height: 5vh;
+    width: 30vh;
     background-image: url(Pics/WOOD.png);
 }
 .board1{
