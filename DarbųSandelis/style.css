@@ -6,7 +6,7 @@ body{background-image: radial-gradient(ellipse at 50% 50%, #445297 0%, #1c1b22 1
     width: 100vw;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(auto);
+    grid-template-rows: repeat(auto, 1fr);
     background-color: transparent;
     grid-gap: 1em;
 }
